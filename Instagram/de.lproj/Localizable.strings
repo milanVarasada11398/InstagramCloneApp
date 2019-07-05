@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Milan Varasada on 05/07/19.
+  
+*/
+
+/* Class = "UIButton"; normalTitle = "SHARE"; ObjectID = "4Om-GK-9bU"; */
+"ShareKey" = "AKTIE";
+
+/* Class = "UIButton"; normalTitle = "Watch All"; ObjectID = "4d4-jS-rTm"; */
+"WatchAllKey" = "Alle ansehen";
+
+/* Class = "UIButton"; normalTitle = "Share App"; ObjectID = "B8X-tM-xO7"; */
+"ShareAppKey" = "App teilen";
+
+/* Class = "UILabel"; text = "Let the Journey Begin"; ObjectID = "DcD-m6-iIr"; */
+"LetTheJourneyBeginKey" = "Lasst die Reise beginnen";
+
+/* Class = "UIButton"; normalTitle = "Connect with Email"; ObjectID = "FgJ-J5-PMN"; */
+"ConnectWithEmailKey" = "Mit E-Mail verbinden";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nbx-TT-lz0"; */
+"LabelKey" = "Etikette";
+
+/* Class = "UIButton"; normalTitle = "Home "; ObjectID = "QGy-51-Ohc"; */
+"HomeKey" = "Zuhause ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YGa-7J-5J9"; */
+"Label2Key" = "Etikette";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "amB-0c-h0Q"; */
+"BackKey" = "Zurück";
+
+/* Class = "UIButton"; normalTitle = "ADD VIDEO"; ObjectID = "djm-64-sna"; */
+"AddVideoKey" = "VIDEO HINZUFÜGEN";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gt9-vZ-5Yc"; */
+"Label3Key" = "Etikette";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "ok5-kZ-fPh"; */
+"LogoutKey" = "Ausloggen";
+
+/* Class = "UILabel"; text = "Stories"; ObjectID = "sgs-Fp-Crg"; */
+"StoriesKey" = "Geschichten";
+
+/* Class = "UIButton"; normalTitle = "ADD IMAGE"; ObjectID = "uWC-i3-p8g"; */
+"AddImageKey" = "BILD HINZUFÜGEN";
+
+/* Class = "UINavigationItem"; title = "Image"; ObjectID = "vsG-Yo-lhE"; */
+"ImageKey" = "Bild";

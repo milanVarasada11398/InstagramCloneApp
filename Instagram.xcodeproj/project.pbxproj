@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E945CCE73A7AA3BDBEC6F4A /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CBC82987389C47E131D64C /* Pods_Instagram.framework */; };
+		E320E75A22CF45C900B3AF8E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E320E75922CF45C900B3AF8E /* ImageViewController.swift */; };
 		E36AF18C22CA3FA2007A24B2 /* InstaPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36AF18B22CA3FA2007A24B2 /* InstaPostCell.swift */; };
 		E36AF18E22CA3FD5007A24B2 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36AF18D22CA3FD5007A24B2 /* AddPostViewController.swift */; };
 		E37F5E9E22C9CC3900F20F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F5E9D22C9CC3900F20F35 /* AppDelegate.swift */; };
@@ -21,11 +22,22 @@
 		E38E0A1A22CDF02700B6EC00 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E0A1922CDF02700B6EC00 /* RatingControl.swift */; };
 		E3CAACBC22CCB20B008DE37B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAACBB22CCB20B008DE37B /* PostData.swift */; };
 		E3CAACBE22CCD2C8008DE37B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAACBD22CCD2C8008DE37B /* SideMenuViewController.swift */; };
+		E3CFE16A22CF09F500EF6503 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CFE16922CF09F500EF6503 /* Instagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		155313449FC9A4551141A4E7 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		C6CBC82987389C47E131D64C /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E320E75922CF45C900B3AF8E /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E320E75B22CF63E000B3AF8E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		E320E75C22CF63E000B3AF8E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E320E75E22CF640800B3AF8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E320E76022CF641000B3AF8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E320E76222CF647300B3AF8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E320E76422CF647C00B3AF8E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E320E76522CF73F800B3AF8E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		E320E76622CF73F800B3AF8E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E320E76722CF73F800B3AF8E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E36AF18B22CA3FA2007A24B2 /* InstaPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InstaPostCell.swift; path = Assets.xcassets/InstaPostCell.swift; sourceTree = "<group>"; };
 		E36AF18D22CA3FD5007A24B2 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		E37F5E9A22C9CC3900F20F35 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +53,7 @@
 		E38E0A1922CDF02700B6EC00 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		E3CAACBB22CCB20B008DE37B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E3CAACBD22CCD2C8008DE37B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		E3CFE16922CF09F500EF6503 /* Instagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
 		E8E23763303E19B5C0FA66F1 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +110,7 @@
 				E37F5E9D22C9CC3900F20F35 /* AppDelegate.swift */,
 				E37F5E9F22C9CC3900F20F35 /* ViewController.swift */,
 				E37F5EA122C9CC3900F20F35 /* Main.storyboard */,
+				E320E76322CF647300B3AF8E /* Localizable.strings */,
 				E36AF18D22CA3FD5007A24B2 /* AddPostViewController.swift */,
 				E37F5EA722C9CC3A00F20F35 /* Assets.xcassets */,
 				E37F5EA922C9CC3A00F20F35 /* LaunchScreen.storyboard */,
@@ -108,6 +122,8 @@
 				E3CAACBB22CCB20B008DE37B /* PostData.swift */,
 				E3CAACBD22CCD2C8008DE37B /* SideMenuViewController.swift */,
 				E38E0A1922CDF02700B6EC00 /* RatingControl.swift */,
+				E3CFE16922CF09F500EF6503 /* Instagram.swift */,
+				E320E75922CF45C900B3AF8E /* ImageViewController.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -158,6 +174,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				de,
 			);
 			mainGroup = E37F5E9122C9CC3900F20F35;
 			productRefGroup = E37F5E9B22C9CC3900F20F35 /* Products */;
@@ -264,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CFE16A22CF09F500EF6503 /* Instagram.swift in Sources */,
 				E3CAACBE22CCD2C8008DE37B /* SideMenuViewController.swift in Sources */,
 				E37F5EA022C9CC3900F20F35 /* ViewController.swift in Sources */,
 				E37F5EA622C9CC3900F20F35 /* Instagram.xcdatamodeld in Sources */,
@@ -272,6 +291,7 @@
 				E36AF18C22CA3FA2007A24B2 /* InstaPostCell.swift in Sources */,
 				E36AF18E22CA3FD5007A24B2 /* AddPostViewController.swift in Sources */,
 				E3CAACBC22CCB20B008DE37B /* PostData.swift in Sources */,
+				E320E75A22CF45C900B3AF8E /* ImageViewController.swift in Sources */,
 				E37F5EB722CA06D900F20F35 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +299,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E320E76322CF647300B3AF8E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E320E76222CF647300B3AF8E /* en */,
+				E320E76422CF647C00B3AF8E /* es */,
+				E320E76722CF73F800B3AF8E /* de */,
+			);
+			name = Localizable.strings;
+			path = /Users/milan.varasada/Desktop/Instagram/Instagram;
+			sourceTree = "<absolute>";
+		};
 		E37F5EA122C9CC3900F20F35 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E37F5EA222C9CC3900F20F35 /* Base */,
+				E320E75B22CF63E000B3AF8E /* es */,
+				E320E75E22CF640800B3AF8E /* en */,
+				E320E76522CF73F800B3AF8E /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -291,6 +325,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				E37F5EAA22C9CC3A00F20F35 /* Base */,
+				E320E75C22CF63E000B3AF8E /* es */,
+				E320E76022CF641000B3AF8E /* en */,
+				E320E76622CF73F800B3AF8E /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -302,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -363,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

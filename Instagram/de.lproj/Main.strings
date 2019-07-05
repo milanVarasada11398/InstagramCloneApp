@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "SHARE"; ObjectID = "4Om-GK-9bU"; */
+"4Om-GK-9bU.normalTitle" = "AKTIE";
+
+/* Class = "UIButton"; normalTitle = "Watch All"; ObjectID = "4d4-jS-rTm"; */
+"4d4-jS-rTm.normalTitle" = "Alle ansehen";
+
+/* Class = "UIButton"; normalTitle = "Share App"; ObjectID = "B8X-tM-xO7"; */
+"B8X-tM-xO7.normalTitle" = "App teilen";
+
+/* Class = "UILabel"; text = "Let the Journey Begin"; ObjectID = "DcD-m6-iIr"; */
+"DcD-m6-iIr.text" = "Lasst die Reise beginnen";
+
+/* Class = "UIButton"; normalTitle = "Connect with Email"; ObjectID = "FgJ-J5-PMN"; */
+"FgJ-J5-PMN.normalTitle" = "Mit E-Mail verbinden";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nbx-TT-lz0"; */
+"Nbx-TT-lz0.text" = "Etikette";
+
+/* Class = "UIButton"; normalTitle = "Home "; ObjectID = "QGy-51-Ohc"; */
+"QGy-51-Ohc.normalTitle" = "Zuhause ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YGa-7J-5J9"; */
+"YGa-7J-5J9.text" = "Etikette";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "amB-0c-h0Q"; */
+"amB-0c-h0Q.title" = "Zurück";
+
+/* Class = "UIButton"; normalTitle = "ADD VIDEO"; ObjectID = "djm-64-sna"; */
+"djm-64-sna.normalTitle" = "VIDEO HINZUFÜGEN";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gt9-vZ-5Yc"; */
+"gt9-vZ-5Yc.text" = "Etikette";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "ok5-kZ-fPh"; */
+"ok5-kZ-fPh.normalTitle" = "Ausloggen";
+
+/* Class = "UILabel"; text = "Stories"; ObjectID = "sgs-Fp-Crg"; */
+"sgs-Fp-Crg.text" = "Geschichten";
+
+/* Class = "UIButton"; normalTitle = "ADD IMAGE"; ObjectID = "uWC-i3-p8g"; */
+"uWC-i3-p8g.normalTitle" = "BILD HINZUFÜGEN";
+
+/* Class = "UINavigationItem"; title = "Image"; ObjectID = "vsG-Yo-lhE"; */
+"vsG-Yo-lhE.title" = "Bild";

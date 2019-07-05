@@ -13,7 +13,8 @@ import SVProgressHUD
 import Fabric
 import Crashlytics
 
-class HomeViewController: UIViewController,passdata,deletedata{
+class HomeViewController: UIViewController,passdata,deletedata,passImage{
+   
 
     //varient variables
     var posts : [Post] = []
@@ -23,6 +24,7 @@ class HomeViewController: UIViewController,passdata,deletedata{
     var post:[String] = []
     var postArray = [String: Any]() //story for collection
     var updatestring = ""
+    var images : UIImage?
     
     //outlets
     @IBOutlet var tableview: UITableView!
@@ -33,8 +35,10 @@ class HomeViewController: UIViewController,passdata,deletedata{
     @IBOutlet var iconImage: UIImageView!
     @IBOutlet var headerView: UIView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        posts = []
         //change icon color
         let imagename = UIImage(named: "logoImage")
         let tintedImage = imagename?.withRenderingMode(.alwaysTemplate)
@@ -65,7 +69,7 @@ class HomeViewController: UIViewController,passdata,deletedata{
         story4.layer.borderWidth = 1
         story4.layer.borderColor = UIColor.red.cgColor
         
-      self.tableview.reloadData()
+      //self.tableview.reloadData()
     }
     
     //delegates
@@ -118,16 +122,36 @@ class HomeViewController: UIViewController,passdata,deletedata{
                 self.posts = []
            self.readData()
             }
+                
         }
     }
     
+    func passImage(index: Int) {
+      
+        print(index)
+        images = posts[index].image
+        print(images)
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "image") as! ImageViewController
+        nextViewController.img = images
+        navigationController?.pushViewController(nextViewController, animated: true)
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
+        
         SVProgressHUD.setDefaultStyle(.custom)
         SVProgressHUD.setDefaultMaskType(.custom)
         SVProgressHUD.setForegroundColor(UIColor.green)           //Ring Color
         SVProgressHUD.setBackgroundColor(UIColor.gray)        //HUD Color
+        
          self.posts = []
         self.readData()
+        posts = []
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+      
     }
 }
 
@@ -140,6 +164,7 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate
         cell.delegate = self
         cell.index = indexPath.row
         cell.delegateDelete = self
+        cell.imageDelegate = self
         let inx = posts[indexPath.row]
         cell.txtView.text = inx.post
         cell.imageStory.image = inx.image
@@ -172,7 +197,8 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableview.deselectRow(at: indexPath, animated: false)
     }
-    func readData() {	
+    func readData() {
+    
         db = Firestore.firestore()
         posts = []
         db.collection("posts").getDocuments() { (querySnapshot, err) in
@@ -189,17 +215,20 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate
                         if let error = error {
                             print("error downloading image:\(error)")
                         } else {
+                         
                             // Data for "images/island.jpg" is returned
                             new.image = UIImage(data: data!)
+            
                             self.posts.append(new)
                             
                             self.tableview.reloadData()
-                            
+                          
                         }
                     }
                 }
             }
         }
+        
     }
     
 }
