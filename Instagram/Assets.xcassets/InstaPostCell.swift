@@ -19,6 +19,10 @@ protocol deletedata {
     func deletePost(index:Int)
 }
 
+protocol passImage {
+    func passImage(index:Int)
+}
+
 class InstaPostCell: UITableViewCell {
     
     //varient variables for update and delete
@@ -28,6 +32,7 @@ class InstaPostCell: UITableViewCell {
     var delegate:passdata?
     var updatestr = ""
     var delegateDelete:deletedata?
+    var imageDelegate:passImage?
     
     //outlets
     @IBOutlet var deleteButton: UIButton!
@@ -38,7 +43,8 @@ class InstaPostCell: UITableViewCell {
     @IBOutlet var profileImage: UIButton!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var cityLabel: UILabel!
-   
+    @IBOutlet var imageTapbutton: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -79,4 +85,10 @@ class InstaPostCell: UITableViewCell {
         print(index)
         delegateDelete?.deletePost(index: index)
     }
+    
+    @IBAction func imageButton(_ sender: Any) {
+      
+       imageDelegate?.passImage(index: index)
+    }
+    
 }
