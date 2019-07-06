@@ -106,6 +106,7 @@ class AddPostViewController: UIViewController,UIImagePickerControllerDelegate,UI
             {
                 print("error \(error.localizedDescription)")
             }
+             //You Can use Native Spinner or ProgressBar instead of ThirdParty Libraries
              SVProgressHUD.dismiss()
         }
      
